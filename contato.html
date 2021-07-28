@@ -29,10 +29,10 @@
         <input type="text" id="nomesobrenome" class="input-padrao">
        
         <label for="email">E-mail:</label>
-        <input type="email" id="email" class="input-padrao">
+        <input type="email" id="email" class="input-padrao" placeholder="email@dominio.com">
      
         <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" class="input-padrao" >
+        <input type="tel" id="telefone" class="input-padrao" placeholder="(XX)XXXXX-XXXX">
 
         <label for="mensagem">Mensagem</label>
         <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
@@ -55,8 +55,19 @@
             </label>
         </div>
 
-        <input type="checkbox" id="checkbox">
-        <label for="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+        <div>
+            <p>Qual horário prefere ser atendido?</p>
+            <select name="" id="">
+                <option value="">Manhã</option>
+                <option value="">Tarde</option>
+                <option value="">Noite</option>
+            </select>
+        </div>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Gostaria de receber nossas novidades por email?
+        </label>
 
         <input type="submit" value="Enviar formulário">
       </form>
