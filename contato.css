@@ -61,12 +61,33 @@ form label, form legend{
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s background;
+    transition: 1s all;
     cursor: pointer;
 }
 
 .enviar:hover{
     background-color: #94640c;
+
+    /* Rotaciona o elemento em 70 graus + Aumenta o elemento em 20% proporcionalmente */
+    /* transform: rotate(70deg) scale(1.2); */
+
+    /* Aumenta proporcionalmente o item em 20% */
+    transform: scale(1.2);
+}
+
+.tabela {
+    margin: 20px 0 40px 0;
+}
+
+.tabela thead{
+    background-color:#555555;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabela td, thead th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
 /* _______FOOTER_______________________________________________ */
