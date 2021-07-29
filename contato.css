@@ -90,6 +90,17 @@ form label, form legend{
     padding: 8px 15px;
 }
 
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    /* Dobro do tamanho da fonte padrão */
+    font-size: 2em;
+    margin: 0 0 1em 0;
+}
+
 /* _______FOOTER_______________________________________________ */
 footer{
     text-align: center;
