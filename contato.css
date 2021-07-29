@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* ________________HEADER___________________________________ */
 header{
     background-color: #bbbbbb;
@@ -99,6 +103,30 @@ form label, form legend{
     /* Dobro do tamanho da fonte padrão */
     font-size: 2em;
     margin: 0 0 1em 0;
+    /* Limpa o float da imagem */
+    clear:left;
+}
+
+.principal p{
+    margin: 0 0 1em 0;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios{
+    width: 60%;
 }
 
 /* _______FOOTER_______________________________________________ */
