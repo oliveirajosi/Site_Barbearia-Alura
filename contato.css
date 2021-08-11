@@ -46,15 +46,20 @@ nav a:hover{
 
 /* Responsividade */
 @media screen and (max-width: 480px){
-    body{
-        background: #ff0000;
+    .caixa, .principal,.conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
     }
 }
 /* _______MAIN________________________________________________ */
-
-/* main{
-
-} */
 
 form label, form legend{
     display: block;
