@@ -183,6 +183,14 @@ form label, form legend{
 
 .imagem-beneficios{
     width: 60%;
+    opacity: 0.3;
+    transition: 400ms;
+    /* Sombras: eixo x + eixo y + blur + borda + cor; permite mais de 1 parâmetro separado por vírgula*/
+    box-shadow: 10px 10px 30px 20px #000000 ;
+}
+
+.imagem-beneficios:hover{
+    opacity: 1;
 }
 
 /* _______FOOTER_______________________________________________ */
